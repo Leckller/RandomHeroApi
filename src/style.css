@@ -1,0 +1,27 @@
+body {
+  background-color: bisque;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  min-width: 50vw;
+  box-shadow: 5px 5px 8px rgba(0,0,0,.5);
+  border-radius: 10px;
+}
+
+button {
+  width: 30%;
+  height: 30px;
+  border: none;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+  border-radius: 5px;
+}
